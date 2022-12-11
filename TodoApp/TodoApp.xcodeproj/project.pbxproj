@@ -13,6 +13,8 @@
 		229DDD382942F91D00B90200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229DDD372942F91D00B90200 /* Assets.xcassets */; };
 		229DDD3B2942F91D00B90200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229DDD392942F91D00B90200 /* LaunchScreen.storyboard */; };
 		229DDD432945F67100B90200 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DDD422945F67100B90200 /* ToDoTableViewController.swift */; };
+		229DDD492946013800B90200 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DDD482946013800B90200 /* Movie.swift */; };
+		229DDD4B2946014B00B90200 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DDD4A2946014B00B90200 /* MovieList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		229DDD3A2942F91D00B90200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		229DDD3C2942F91D00B90200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229DDD422945F67100B90200 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		229DDD482946013800B90200 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		229DDD4A2946014B00B90200 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				229DDD2E2942F91B00B90200 /* AppDelegate.swift */,
 				229DDD302942F91B00B90200 /* SceneDelegate.swift */,
 				229DDD422945F67100B90200 /* ToDoTableViewController.swift */,
+				229DDD482946013800B90200 /* Movie.swift */,
+				229DDD4A2946014B00B90200 /* MovieList.swift */,
 				229DDD342942F91B00B90200 /* Main.storyboard */,
 				229DDD372942F91D00B90200 /* Assets.xcassets */,
 				229DDD392942F91D00B90200 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				229DDD2F2942F91B00B90200 /* AppDelegate.swift in Sources */,
 				229DDD432945F67100B90200 /* ToDoTableViewController.swift in Sources */,
+				229DDD492946013800B90200 /* Movie.swift in Sources */,
+				229DDD4B2946014B00B90200 /* MovieList.swift in Sources */,
 				229DDD312942F91B00B90200 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
