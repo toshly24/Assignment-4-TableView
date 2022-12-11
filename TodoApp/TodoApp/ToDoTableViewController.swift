@@ -8,6 +8,8 @@
 import UIKit
 
 class ToDoTableViewController: UITableViewController {
+    
+    var movieList = MovieList();
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,12 +30,12 @@ class ToDoTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 10
+        return 4
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Todo", for: indexPath)
-        cell.textLabel!.text = "Violet"
+        cell.textLabel!.text = movieList.allMovies[indexPath.row].movie_name
         // Configure the cell...
 
         return cell

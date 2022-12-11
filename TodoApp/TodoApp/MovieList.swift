@@ -9,9 +9,16 @@ import Foundation
 
 class MovieList
 {
-    var allMovies : String
+    var allMovies = [Movie]()
     
-    init(allMovies: String) {
-        self.allMovies = allMovies
+    init()
+    {
+        let movieNames = ["Eternals" , "Dune" , "No Time To Die" , "Last Night in Soho"]
+        
+        for i in 0...(movieNames.count-1)
+        {
+            allMovies.append(Movie(movie_name: movieNames[i]))
+        }
+        
     }
 }
