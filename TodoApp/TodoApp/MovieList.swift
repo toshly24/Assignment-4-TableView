@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class MovieList
+{
+    var allMovies : String
+    
+    init(allMovies: String) {
+        self.allMovies = allMovies
+    }
+}
